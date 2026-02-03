@@ -1,0 +1,48 @@
+.layout {
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.overlay {
+	width: auto;
+	min-height: 100vh;
+	padding: 40px 20px;
+	box-sizing: border-box;
+}
+
+.file-upload {
+	display: block;
+	padding: 12px 20px;
+	border: 2px dashed black;
+	color: black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	background-color: #ebe4d6;
+	font-family: "Great Vibes", cursive;
+	font-size: 1.7rem;
+	letter-spacing: 2px;
+}
+
+.file-upload input {
+	display: none;
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+	.layout {
+		background-attachment: scroll;
+	}
+
+	.overlay {
+		padding: 20px 15px;
+		padding-top: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
