@@ -46,7 +46,7 @@ export default function Gallery({ galleryKey }) {
 			const link = document.createElement("a");
 
 			link.href = blobUrl;
-			link.download = "foto-boda.jpg";
+			link.download = `foto-boda-${Date.now()}.jpg`;
 			document.body.appendChild(link);
 			link.click();
 

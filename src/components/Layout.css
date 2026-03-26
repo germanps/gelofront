@@ -40,9 +40,9 @@
 	.overlay {
 		padding: 20px 15px;
 		padding-top: 0;
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: center;*/
 	}
 }
